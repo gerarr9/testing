@@ -42,4 +42,11 @@ public class User {
     public int hashCode() {
         return Objects.hash(email, password);
     }
+
+    public boolean isEmpty() {
+        if (getEmail().isEmpty() && getPassword().isEmpty()){
+            return  true;
+        }
+        return false;
+    }
 }

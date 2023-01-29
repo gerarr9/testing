@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ef10955-f86f-4499-81be-19885ee58411" name="Changes" comment="work">
+    <list default="true" id="2ef10955-f86f-4499-81be-19885ee58411" name="Changes" comment="reWork">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/UserTest.java" afterDir="false" />
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="work" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +63,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest (1)">
+  <component name="RunManager" selected="JUnit.UserTest.checEmpty">
     <configuration name="UserTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <extension name="coverage">
@@ -98,6 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserTest.checEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.UserTest" />
+      <option name="METHOD_NAME" value="checEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTest.testEmailAndPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <extension name="coverage">
@@ -116,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.checEmpty" />
         <item itemvalue="JUnit.UserTest (1)" />
         <item itemvalue="JUnit.UserTest.testEmailAndPassword" />
         <item itemvalue="JUnit.UserTest.User" />
@@ -132,7 +149,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674999152747</updated>
       <workItem from="1674999154258" duration="3507000" />
-      <workItem from="1675003139030" duration="1093000" />
+      <workItem from="1675003139030" duration="1540000" />
+      <workItem from="1675022457364" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="main">
       <created>1674999225211</created>
@@ -148,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675002693554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="reWork">
+      <created>1675004263418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675004263418</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="reWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="reWork" />
   </component>
 </project>
