@@ -17,9 +17,9 @@ public class User {
     }
 
     public void setEmail(String email) {
-        if (email.contains("@")){
+
             this.email = email;
-        }
+
     }
 
     public String getPassword() {
