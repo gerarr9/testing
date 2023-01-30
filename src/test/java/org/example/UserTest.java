@@ -23,5 +23,22 @@ class UserTest {
         assertTrue(user.isEmpty());
 
     }
+    @Test
+    public  void checForBlank(){
+        User user = new User(" "," ");
+        assertTrue(user.isBlank());
+    }
+    @Test
+    public  void  checEqualLoginAndPassword(){
+        User user = new User("211@", "211@");
+        assertEquals(user.getPassword(),user.getEmail());
+    }
+    @Test
+    public  void  checCreate(){
+        User user = new User("123@mfifa.com","123");
+        assertEquals("123@mfifa.com",user.getEmail());
+        assertEquals("123",user.getPassword());
+
+    }
 
 }

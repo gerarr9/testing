@@ -5,6 +5,9 @@ import java.util.Objects;
 public class User {
     private String email;
     private String password;
+    public User(){
+
+    }
 
     public User(String email, String password) {
         setEmail(email);
@@ -44,9 +47,16 @@ public class User {
     }
 
     public boolean isEmpty() {
-        if (getEmail().isEmpty() && getPassword().isEmpty()){
+        if (getEmail().isEmpty() || getPassword().isEmpty()){
             return  true;
         }
         return false;
     }
+    public  boolean isBlank(){
+        if(getEmail().isBlank() || getPassword().isBlank()){
+            return  true;
+        }
+        return false;
+    }
+
 }
